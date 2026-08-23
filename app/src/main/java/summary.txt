@@ -1,0 +1,1196 @@
+Summary for /data/data/com.termux/files/home/launcher.jar
+Decompiled with CFR 0.152
+
+
+androidx.multidex.MultiDex
+----------------------------
+
+doInstallation(android.content.Context java.io.File java.io.File java.lang.String java.lang.String boolean )
+  Loose catch block
+
+
+androidx.multidex.MultiDexExtractor
+----------------------------
+
+<init>(java.io.File java.io.File )
+  Loose catch block
+extract(java.util.zip.ZipFile java.util.zip.ZipEntry java.io.File java.lang.String )
+  Loose catch block
+
+
+com.google.android.gms.common.api.internal.GoogleApiManager
+----------------------------
+
+handleMessage(android.os.Message )
+  Could not resolve type clashes
+  Unable to fully structure code
+
+
+com.google.android.gms.common.api.internal.zabi
+----------------------------
+
+zac(long java.util.concurrent.TimeUnit )
+  Unable to fully structure code
+  Could not resolve type clashes
+
+
+com.google.android.gms.common.api.internal.zabq
+----------------------------
+
+<init>(com.google.android.gms.common.api.internal.GoogleApiManager com.google.android.gms.common.api.GoogleApi )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+com.google.android.gms.common.util.ProcessUtils
+----------------------------
+
+getMyProcessName()
+  Loose catch block
+
+
+kotlin.io.FilesKt__UtilsKt
+----------------------------
+
+copyTo(java.io.File java.io.File boolean int )
+  Loose catch block
+
+
+kotlin.sequences.SequencesKt___SequencesKt
+----------------------------
+
+invokeSuspend(java.lang.Object )
+  Handled impossible loop by duplicating code
+invokeSuspend(java.lang.Object )
+  Handled impossible loop by duplicating code
+invokeSuspend(java.lang.Object )
+  Handled impossible loop by duplicating code
+invokeSuspend(java.lang.Object )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[SWITCH], 3[CASE]], but top level block is 4[WHILELOOP]
+
+
+kotlin.text.StringsKt__StringsJVMKt
+----------------------------
+
+repeat(java.lang.CharSequence int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[CASE]], but top level block is 4[SWITCH]
+
+
+androidx.activity.ImmLeaksCleaner
+----------------------------
+
+onStateChanged(androidx.lifecycle.LifecycleOwner androidx.lifecycle.Lifecycle$Event )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 5[TRYBLOCK] [10 : 107->110)] java.lang.Throwable
+
+
+androidx.appcompat.app.AppCompatViewInflater
+----------------------------
+
+createViewByPrefix(android.content.Context java.lang.String java.lang.String )
+  Unable to fully structure code
+
+
+androidx.appcompat.view.SupportMenuInflater
+----------------------------
+
+inflate(int android.view.Menu )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 2[TRYBLOCK] [6 : 80->84)] java.lang.Throwable
+
+
+androidx.appcompat.widget.ActivityChooserModel
+----------------------------
+
+readHistoricalDataImpl()
+  Loose catch block
+doInBackground(java.lang.Object[] )
+  Loose catch block
+
+
+androidx.appcompat.widget.AppCompatSpinner
+----------------------------
+
+<init>(android.content.Context android.util.AttributeSet int int android.content.res.Resources$Theme )
+  Unable to fully structure code
+
+
+androidx.appcompat.widget.DrawableUtils
+----------------------------
+
+getOpticalBounds(android.graphics.drawable.Drawable )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 8[SWITCH]
+
+
+androidx.collection.LruCache
+----------------------------
+
+trimToSize(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 2[TRYBLOCK] [5 : 174->179)] java.lang.Throwable
+
+
+androidx.appcompat.widget.SuggestionsAdapter
+----------------------------
+
+getDrawable(android.net.Uri )
+  Unable to fully structure code
+
+
+androidx.constraintlayout.motion.widget.KeyFrames
+----------------------------
+
+<init>(android.content.Context org.xmlpull.v1.XmlPullParser )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [11[CASE]], but top level block is 1[TRYBLOCK]
+
+
+androidx.constraintlayout.widget.ConstraintLayout
+----------------------------
+
+applyConstraintsFromLayoutParams(boolean android.view.View androidx.constraintlayout.solver.widgets.ConstraintWidget androidx.constraintlayout.widget.ConstraintLayout$LayoutParams android.util.SparseArray<androidx.constraintlayout.solver.widgets.ConstraintWidget> )
+  Unable to fully structure code
+  Could not resolve type clashes
+
+
+androidx.constraintlayout.motion.widget.MotionScene
+----------------------------
+
+load(android.content.Context int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [30[CASE]], but top level block is 9[TRYBLOCK]
+
+
+androidx.constraintlayout.solver.widgets.Chain
+----------------------------
+
+applyChainConstraints(androidx.constraintlayout.solver.widgets.ConstraintWidgetContainer androidx.constraintlayout.solver.LinearSystem int int androidx.constraintlayout.solver.widgets.ChainHead )
+  Unable to fully structure code
+
+
+androidx.constraintlayout.widget.ConstraintAttribute
+----------------------------
+
+setInterpolatedValue(android.view.View float[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [5[CASE]], but top level block is 1[TRYBLOCK]
+
+
+androidx.constraintlayout.widget.ConstraintLayoutStates
+----------------------------
+
+load(android.content.Context int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 17[SWITCH]
+
+
+androidx.constraintlayout.widget.ConstraintSet
+----------------------------
+
+load(android.content.Context int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [5[CASE]], but top level block is 1[TRYBLOCK]
+load(android.content.Context org.xmlpull.v1.XmlPullParser )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[TRYBLOCK]], but top level block is 22[SWITCH]
+
+
+androidx.constraintlayout.widget.StateSet
+----------------------------
+
+load(android.content.Context org.xmlpull.v1.XmlPullParser )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [12[CASE]], but top level block is 1[TRYBLOCK]
+
+
+androidx.core.app.ActivityRecreator
+----------------------------
+
+recreate(android.app.Activity )
+  Loose catch block
+
+
+androidx.core.app.NotificationCompat
+----------------------------
+
+applyStandardTemplate(boolean int boolean )
+  Unable to fully structure code
+
+
+androidx.core.content.res.ResourcesCompat
+----------------------------
+
+loadFont(android.content.Context android.content.res.Resources android.util.TypedValue int int androidx.core.content.res.ResourcesCompat$FontCallback android.os.Handler boolean )
+  Unable to fully structure code
+  Could not resolve type clashes
+
+
+androidx.core.graphics.TypefaceCompatApi21Impl
+----------------------------
+
+createFromFontInfo(android.content.Context android.os.CancellationSignal androidx.core.provider.FontsContractCompat$FontInfo[] int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+androidx.core.graphics.TypefaceCompatApi26Impl
+----------------------------
+
+createFromFontInfo(android.content.Context android.os.CancellationSignal androidx.core.provider.FontsContractCompat$FontInfo[] int )
+  Loose catch block
+
+
+androidx.core.graphics.TypefaceCompatApi29Impl
+----------------------------
+
+createFromFontInfo(android.content.Context android.os.CancellationSignal androidx.core.provider.FontsContractCompat$FontInfo[] int )
+  Loose catch block
+
+
+androidx.core.graphics.TypefaceCompatUtil
+----------------------------
+
+copyToFile(java.io.File java.io.InputStream )
+  Loose catch block
+mmap(android.content.Context android.os.CancellationSignal android.net.Uri )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+mmap(java.io.File )
+  Loose catch block
+
+
+androidx.core.graphics.drawable.IconCompat
+----------------------------
+
+toIcon(android.content.Context )
+  Unable to fully structure code
+
+
+androidx.core.provider.FontsContractCompat
+----------------------------
+
+getFontFromProvider(android.content.Context androidx.core.provider.FontRequest java.lang.String android.os.CancellationSignal )
+  Unable to fully structure code
+  Could not resolve type clashes
+onReply(androidx.core.provider.FontsContractCompat$TypefaceResult )
+  Loose catch block
+
+
+androidx.core.provider.SelfDestructiveThread
+----------------------------
+
+postAndWait(java.util.concurrent.Callable<T> int )
+  Unable to fully structure code
+
+
+androidx.core.view.GestureDetectorCompat
+----------------------------
+
+onTouchEvent(android.view.MotionEvent )
+  Unable to fully structure code
+
+
+androidx.documentfile.provider.DocumentsContractApi19
+----------------------------
+
+exists(android.content.Context android.net.Uri )
+  Loose catch block
+queryForLong(android.content.Context android.net.Uri java.lang.String long )
+  Loose catch block
+queryForString(android.content.Context android.net.Uri java.lang.String java.lang.String )
+  Loose catch block
+
+
+androidx.documentfile.provider.TreeDocumentFile
+----------------------------
+
+listFiles()
+  Loose catch block
+
+
+androidx.exifinterface.media.ExifInterface
+----------------------------
+
+getHeifAttributes(androidx.exifinterface.media.ExifInterface$ByteOrderedDataInputStream )
+  Unable to fully structure code
+  Could not resolve type clashes
+isHeifFormat(byte[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 15[TRYBLOCK] [30 : 427->433)] java.lang.Throwable
+loadAttributes(java.io.InputStream )
+  Unable to fully structure code
+saveWebpAttributes(java.io.InputStream java.io.OutputStream )
+  Unable to fully structure code
+getThumbnailBytes()
+  Unable to fully structure code
+saveAttributes()
+  Loose catch block
+getValue(java.nio.ByteOrder )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 55[TRYBLOCK] [98 : 1182->1191)] java.lang.Throwable
+
+
+androidx.lifecycle.SavedStateViewModelFactory
+----------------------------
+
+create(java.lang.String java.lang.Class<T> )
+  Unable to fully structure code
+
+
+androidx.localbroadcastmanager.content.LocalBroadcastManager
+----------------------------
+
+sendBroadcast(android.content.Intent )
+  Unable to fully structure code
+
+
+androidx.preference.PreferenceGroup
+----------------------------
+
+addPreference(androidx.preference.Preference )
+  Loose catch block
+removeAll()
+  Loose catch block
+
+
+androidx.preference.PreferenceInflater
+----------------------------
+
+createItem(java.lang.String java.lang.String[] android.util.AttributeSet )
+  Unable to fully structure code
+
+
+androidx.print.PrintHelper
+----------------------------
+
+doInBackground(java.lang.Void[] )
+  Loose catch block
+
+
+androidx.recyclerview.widget.GridLayoutManager
+----------------------------
+
+onFocusSearchFailed(android.view.View int androidx.recyclerview.widget.RecyclerView$Recycler androidx.recyclerview.widget.RecyclerView$State )
+  Unable to fully structure code
+  Could not resolve type clashes
+
+
+androidx.recyclerview.widget.RecyclerView
+----------------------------
+
+createLayoutManager(android.content.Context java.lang.String android.util.AttributeSet int int )
+  Unable to fully structure code
+  Could not resolve type clashes
+findViewHolderForPosition(int boolean )
+  Unable to fully structure code
+
+
+androidx.slidingpanelayout.widget.SlidingPaneLayout
+----------------------------
+
+onMeasure(int int )
+  Unable to fully structure code
+  Could not resolve type clashes
+
+
+androidx.transition.TransitionInflater
+----------------------------
+
+getTargetIds(org.xmlpull.v1.XmlPullParser android.util.AttributeSet androidx.transition.Transition )
+  Loose catch block
+inflateTransition(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 1[TRYBLOCK] [3 : 37->96)] java.lang.Throwable
+inflateTransitionManager(int android.view.ViewGroup )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 1[TRYBLOCK] [3 : 37->101)] java.lang.Throwable
+
+
+androidx.vectordrawable.graphics.drawable.AnimatorInflaterCompat
+----------------------------
+
+getPVH(android.content.res.TypedArray int int int java.lang.String )
+  Unable to fully structure code
+  Could not resolve type clashes
+loadAnimator(android.content.Context android.content.res.Resources android.content.res.Resources$Theme int float )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 2[TRYBLOCK] [6 : 62->66)] java.lang.Throwable
+
+
+androidx.vectordrawable.graphics.drawable.VectorDrawableCompat
+----------------------------
+
+inflateInternal(android.content.res.Resources org.xmlpull.v1.XmlPullParser android.util.AttributeSet android.content.res.Resources$Theme )
+  Unable to fully structure code
+  Could not resolve type clashes
+
+
+androidx.versionedparcelable.VersionedParcelStream
+----------------------------
+
+writeBundle(android.os.Bundle )
+  Unable to fully structure code
+writeByteArray(byte[] )
+  Unable to fully structure code
+writeByteArray(byte[] int int )
+  Unable to fully structure code
+writeString(java.lang.String )
+  Unable to fully structure code
+
+
+com.blackrussia.Utils
+----------------------------
+
+writeFile(java.lang.String java.lang.String )
+  Loose catch block
+
+
+com.bumptech.glide.Glide
+----------------------------
+
+trimMemory(int )
+  Loose catch block
+
+
+com.bumptech.glide.disklrucache.DiskLruCache
+----------------------------
+
+readJournal()
+  Loose catch block
+rebuildJournal()
+  Loose catch block
+
+
+com.bumptech.glide.disklrucache.StrictLineReader
+----------------------------
+
+readLine()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 7[TRYBLOCK] [12 : 283->289)] java.lang.Throwable
+
+
+com.bumptech.glide.load.data.HttpUrlFetcher
+----------------------------
+
+loadData(com.bumptech.glide.Priority com.bumptech.glide.load.data.DataFetcher$DataCallback<? super java.io.InputStream> )
+  Loose catch block
+
+
+com.bumptech.glide.load.data.mediastore.ThumbnailStreamOpener
+----------------------------
+
+getPath(android.net.Uri )
+  Loose catch block
+
+
+com.bumptech.glide.load.engine.DecodeJob
+----------------------------
+
+notifyEncodeAndRelease(com.bumptech.glide.load.engine.Resource<R> com.bumptech.glide.load.DataSource boolean )
+  Unable to fully structure code
+run()
+  Loose catch block
+
+
+com.bumptech.glide.load.engine.EngineJob
+----------------------------
+
+notifyCallbacksOfException()
+  Unable to fully structure code
+notifyCallbacksOfResult()
+  Unable to fully structure code
+
+
+com.bumptech.glide.load.engine.cache.DiskLruCacheWrapper
+----------------------------
+
+clear()
+  Loose catch block
+put(com.bumptech.glide.load.Key com.bumptech.glide.load.engine.cache.DiskCache$Writer )
+  Unable to fully structure code
+
+
+com.bumptech.glide.load.model.StreamEncoder
+----------------------------
+
+encode(java.io.InputStream java.io.File com.bumptech.glide.load.Options )
+  Loose catch block
+
+
+com.bumptech.glide.load.resource.bitmap.BitmapEncoder
+----------------------------
+
+encode(com.bumptech.glide.load.engine.Resource<android.graphics.Bitmap> java.io.File com.bumptech.glide.load.Options )
+  Unable to fully structure code
+
+
+com.bumptech.glide.load.resource.bitmap.DefaultImageHeaderParser
+----------------------------
+
+getType(com.bumptech.glide.load.resource.bitmap.DefaultImageHeaderParser$Reader )
+  Unable to fully structure code
+  Could not resolve type clashes
+
+
+com.bumptech.glide.load.resource.bitmap.Downsampler
+----------------------------
+
+decodeStream(com.bumptech.glide.load.resource.bitmap.ImageReader android.graphics.BitmapFactory$Options com.bumptech.glide.load.resource.bitmap.Downsampler$DecodeCallbacks com.bumptech.glide.load.engine.bitmap_recycle.BitmapPool )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 1[TRYBLOCK] [2 : 71->111)] java.lang.Throwable
+
+
+com.bumptech.glide.load.resource.bitmap.RecyclableBufferedInputStream
+----------------------------
+
+fillbuf(java.io.InputStream byte[] )
+  Unable to fully structure code
+read(byte[] int int )
+  Unable to fully structure code
+
+
+com.bumptech.glide.manager.SingletonConnectivityReceiver
+----------------------------
+
+onConnectivityChanged(boolean )
+  Loose catch block
+
+
+com.bumptech.glide.request.SingleRequest
+----------------------------
+
+onSizeReady(int int )
+  Loose catch block
+
+
+com.downloader.database.AppDbHelper
+----------------------------
+
+find(int )
+  Loose catch block
+getUnwantedModels(int )
+  Loose catch block
+
+
+com.downloader.internal.DownloadTask
+----------------------------
+
+run()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 16[TRYBLOCK] [72 : 939->980)] java.lang.Throwable
+
+
+com.google.android.gms.common.GooglePlayServicesUtilLight
+----------------------------
+
+honorsDebugCertificates(android.content.Context )
+  Loose catch block
+
+
+com.google.android.gms.common.api.GoogleApiClient
+----------------------------
+
+build()
+  Loose catch block
+
+
+com.google.android.gms.common.api.internal.zaa
+----------------------------
+
+onStop()
+  Loose catch block
+
+
+com.google.android.gms.common.api.internal.zaav
+----------------------------
+
+run()
+  Unable to fully structure code
+
+
+com.google.android.gms.common.api.internal.zaao
+----------------------------
+
+<init>(com.google.android.gms.common.api.internal.zaaw java.util.Map )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+com.google.android.gms.common.api.internal.zaap
+----------------------------
+
+<init>(com.google.android.gms.common.api.internal.zaaw java.util.ArrayList )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+com.google.android.gms.common.api.internal.zabe
+----------------------------
+
+connect()
+  Unable to fully structure code
+zac(int boolean )
+  Unable to fully structure code
+  Could not resolve type clashes
+zap(com.google.android.gms.common.api.internal.zada )
+  Unable to fully structure code
+
+
+com.google.android.gms.common.api.internal.zabu
+----------------------------
+
+<init>(com.google.android.gms.common.api.internal.GoogleApiManager com.google.android.gms.common.api.Api$Client com.google.android.gms.common.api.internal.ApiKey )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+com.google.android.gms.internal.base.zaa
+----------------------------
+
+zab(int android.os.Parcel )
+  Loose catch block
+
+
+com.google.android.gms.common.api.internal.zacy
+----------------------------
+
+run()
+  Loose catch block
+
+
+com.google.android.gms.common.config.GservicesValue
+----------------------------
+
+get()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 3[TRYBLOCK] [4 : 56->60)] java.lang.Throwable
+
+
+com.google.android.gms.common.data.BitmapTeleporter
+----------------------------
+
+get()
+  Loose catch block
+writeToParcel(android.os.Parcel int )
+  Loose catch block
+
+
+com.google.android.gms.common.data.DataHolder
+----------------------------
+
+zaf(com.google.android.gms.common.data.DataHolder$Builder int )
+  Unable to fully structure code
+
+
+com.google.android.gms.common.internal.AccountAccessor
+----------------------------
+
+getAccountBinderSafe(com.google.android.gms.common.internal.IAccountAccessor )
+  Loose catch block
+
+
+com.google.android.gms.common.internal.LibraryVersion
+----------------------------
+
+getVersion(java.lang.String )
+  Loose catch block
+
+
+com.google.android.gms.common.internal.RootTelemetryConfigManager
+----------------------------
+
+zza(com.google.android.gms.common.internal.RootTelemetryConfiguration )
+  Unable to fully structure code
+
+
+com.google.android.gms.common.internal.zag
+----------------------------
+
+onClick(android.content.DialogInterface int )
+  Loose catch block
+
+
+com.google.android.gms.common.internal.zzc
+----------------------------
+
+<init>(com.google.android.gms.common.internal.BaseGmsClient java.lang.Object )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+com.google.android.gms.internal.common.zza
+----------------------------
+
+zzB(int android.os.Parcel )
+  Loose catch block
+
+
+com.google.android.gms.common.server.response.FastParser
+----------------------------
+
+zaz(java.io.BufferedReader com.google.android.gms.common.server.response.FastJsonResponse )
+  Unable to fully structure code
+parse(java.io.InputStream T )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 4[TRYBLOCK] [17 : 273->285)] java.lang.Throwable
+
+
+com.google.android.gms.dynamite.DynamiteModule
+----------------------------
+
+load(android.content.Context com.google.android.gms.dynamite.DynamiteModule$VersionPolicy java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 16[TRYBLOCK] [37 : 606->609)] java.lang.Throwable
+zza(android.content.Context java.lang.String boolean )
+  Unable to fully structure code
+zzb(android.content.Context java.lang.String boolean )
+  Loose catch block
+
+
+com.google.android.gms.dynamite.zzb
+----------------------------
+
+zzb()
+  Loose catch block
+zzc()
+  Unable to fully structure code
+
+
+com.google.firebase.FirebaseApp
+----------------------------
+
+getAllAppNames()
+  Loose catch block
+onReceive(android.content.Context android.content.Intent )
+  Loose catch block
+
+
+com.google.firebase.components.ComponentRuntime
+----------------------------
+
+discoverComponents(java.util.List<com.google.firebase.components.Component<?>> )
+  Loose catch block
+
+
+com.google.firebase.components.EventBus
+----------------------------
+
+enablePublishingAndFlushPending()
+  Loose catch block
+publish(com.google.firebase.events.Event<?> )
+  Loose catch block
+
+
+com.google.firebase.database.android.SqlPersistenceStorageEngine
+----------------------------
+
+loadUserWrites()
+  Loose catch block
+
+
+com.google.firebase.database.tubesock.WebSocket
+----------------------------
+
+runReader()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 12[TRYBLOCK] [32 : 477->479)] java.lang.Throwable
+
+
+com.google.firebase.database.tubesock.WebSocketReceiver
+----------------------------
+
+run()
+  Unable to fully structure code
+
+
+com.google.firebase.heartbeatinfo.DefaultHeartBeatController
+----------------------------
+
+lambda$getHeartBeatsHeader$2$com-google-firebase-heartbeatinfo-DefaultHeartBeatController()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 11[TRYBLOCK] [11 : 241->246)] java.lang.Throwable
+
+
+com.google.gson.Gson
+----------------------------
+
+fromJson(com.google.gson.stream.JsonReader java.lang.reflect.Type )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 2[TRYBLOCK] [8 : 46->60)] java.lang.Throwable
+toJson(com.google.gson.JsonElement com.google.gson.stream.JsonWriter )
+  Loose catch block
+toJson(java.lang.Object java.lang.reflect.Type com.google.gson.stream.JsonWriter )
+  Loose catch block
+
+
+com.google.gson.JsonParser
+----------------------------
+
+parse(com.google.gson.stream.JsonReader )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 1[TRYBLOCK] [3 : 27->79)] java.lang.Throwable
+
+
+com.google.gson.stream.JsonReader
+----------------------------
+
+skipTo(java.lang.String )
+  Unable to fully structure code
+doPeek()
+  Handled duff style switch with additional control
+
+
+com.google.gson.internal.bind.util.ISO8601Utils
+----------------------------
+
+parse(java.lang.String java.text.ParsePosition )
+  Unable to fully structure code
+
+
+com.liulishuo.filedownloader.FileDownloadList
+----------------------------
+
+remove(com.liulishuo.filedownloader.BaseDownloadTask$IRunningTask com.liulishuo.filedownloader.message.MessageSnapshot )
+  Loose catch block
+
+
+com.liulishuo.filedownloader.FileDownloadMessageStation
+----------------------------
+
+push()
+  Loose catch block
+
+
+com.liulishuo.filedownloader.PauseAllMarker
+----------------------------
+
+handleMessage(android.os.Message )
+  Loose catch block
+
+
+com.liulishuo.filedownloader.download.CustomComponentHolder
+----------------------------
+
+maintainDatabase(com.liulishuo.filedownloader.database.FileDownloadDatabase$Maintainer )
+  Unable to fully structure code
+
+
+com.liulishuo.filedownloader.download.DownloadLaunchRunnable
+----------------------------
+
+handleTrialConnectResult(java.util.Map<java.lang.String, java.util.List<java.lang.String>> com.liulishuo.filedownloader.download.ConnectTask com.liulishuo.filedownloader.connection.FileDownloadConnection )
+  Unable to fully structure code
+run()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [35[UNCONDITIONALDOLOOP]], but top level block is 15[TRYBLOCK]
+
+
+com.liulishuo.filedownloader.download.DownloadRunnable
+----------------------------
+
+run()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 16[TRYBLOCK] [80 : 941->955)] java.lang.Throwable
+
+
+com.liulishuo.filedownloader.download.DownloadStatusCallback
+----------------------------
+
+handleMessage(android.os.Message )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[CASE]], but top level block is 0[TRYBLOCK]
+
+
+com.liulishuo.filedownloader.download.FetchDataTask
+----------------------------
+
+run()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 7[TRYBLOCK] [7 : 343->354)] java.lang.Throwable
+
+
+com.liulishuo.filedownloader.services.FDServiceSeparateHandler
+----------------------------
+
+callback(com.liulishuo.filedownloader.message.MessageSnapshot )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [11[FORLOOP]], but top level block is 4[TRYBLOCK]
+
+
+com.liulishuo.filedownloader.services.FileDownloadManager
+----------------------------
+
+start(java.lang.String java.lang.String boolean int int int boolean com.liulishuo.filedownloader.model.FileDownloadHeader boolean )
+  Unable to fully structure code
+
+
+com.liulishuo.okdownload.core.NamedRunnable
+----------------------------
+
+run()
+  Unable to fully structure code
+
+
+com.liulishuo.okdownload.core.breakpoint.BreakpointStoreOnCache
+----------------------------
+
+allocateId()
+  Unable to fully structure code
+
+
+com.liulishuo.okdownload.core.dispatcher.DownloadDispatcher
+----------------------------
+
+cancelLocked(com.liulishuo.okdownload.core.IdentifiedTask[] )
+  Loose catch block
+
+
+com.liulishuo.okdownload.core.download.DownloadCall
+----------------------------
+
+cancel()
+  Loose catch block
+
+
+com.liulishuo.okdownload.core.download.DownloadChain
+----------------------------
+
+run()
+  Unable to fully structure code
+
+
+com.liulishuo.okdownload.core.file.FileLock
+----------------------------
+
+decreaseLock(java.lang.String )
+  Loose catch block
+
+
+com.liulishuo.okdownload.core.file.MultiPointOutputStream
+----------------------------
+
+cancel()
+  Unable to fully structure code
+ensureSync(boolean int )
+  Unable to fully structure code
+
+
+com.nvidia.devtech.NvAPKFileHelper
+----------------------------
+
+seekFileAndroid(com.nvidia.devtech.NvAPKFile int )
+  Loose catch block
+
+
+com.smarteist.autoimageslider.SliderPager
+----------------------------
+
+onInterceptTouchEvent(android.view.MotionEvent )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [18[CASE]], but top level block is 3[TRYBLOCK]
+
+
+kotlin.collections.SlidingWindowKt
+----------------------------
+
+invokeSuspend(java.lang.Object )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [7[CASE], 0[SWITCH]], but top level block is 8[WHILELOOP]
+
+
+kotlin.internal.PlatformImplementations
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+kotlin.io.LineReader
+----------------------------
+
+readLine(java.io.InputStream java.nio.charset.Charset )
+  Unable to fully structure code
+
+
+kotlin.io.path.PathsKt__PathReadWriteKt
+----------------------------
+
+forEachLine(java.nio.file.Path java.nio.charset.Charset kotlin.jvm.functions.Function1<? super java.lang.String, kotlin.Unit> )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 8[WHILELOOP]
+forEachLine$default(java.nio.file.Path java.nio.charset.Charset kotlin.jvm.functions.Function1 int java.lang.Object )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 8[WHILELOOP]
+
+
+kotlin.jvm.internal.ClassReference
+----------------------------
+
+getClassSimpleName(java.lang.Class<?> )
+  Unable to fully structure code
+
+
+kotlin.random.Random
+----------------------------
+
+nextBytes(byte[] int int )
+  Unable to fully structure code
+nextDouble(double double )
+  Unable to fully structure code
+
+
+kotlin.sequences.SequencesKt__SequencesKt
+----------------------------
+
+invokeSuspend(java.lang.Object )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[SWITCH], 3[CASE]], but top level block is 4[WHILELOOP]
+
+
+kotlin.text.DelimitedRangesSequence
+----------------------------
+
+calcNext()
+  Unable to fully structure code
+
+
+net.lingala.zip4j.core.HeaderReader
+----------------------------
+
+readCentralDirectory()
+  Unable to fully structure code
+readLocalFileHeader(net.lingala.zip4j.model.FileHeader )
+  Unable to fully structure code
+
+
+net.lingala.zip4j.core.HeaderWriter
+----------------------------
+
+writeEndOfCentralDirectoryRecord(net.lingala.zip4j.model.ZipModel java.io.OutputStream int long java.util.List )
+  Unable to fully structure code
+writeFileHeader(net.lingala.zip4j.model.ZipModel net.lingala.zip4j.model.FileHeader java.io.OutputStream java.util.List )
+  Loose catch block
+updateLocalFileHeader(net.lingala.zip4j.model.LocalFileHeader long int net.lingala.zip4j.model.ZipModel byte[] int net.lingala.zip4j.io.SplitOutputStream )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [9[CASE]], but top level block is 3[TRYBLOCK]
+writeLocalFileHeader(net.lingala.zip4j.model.ZipModel net.lingala.zip4j.model.LocalFileHeader java.io.OutputStream )
+  Unable to fully structure code
+
+
+net.lingala.zip4j.core.ZipFile
+----------------------------
+
+readZipInfo()
+  Loose catch block
+
+
+net.lingala.zip4j.unzip.Unzip
+----------------------------
+
+initExtractFile(net.lingala.zip4j.model.FileHeader java.lang.String net.lingala.zip4j.model.UnzipParameters java.lang.String net.lingala.zip4j.progress.ProgressMonitor )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [7[CATCHBLOCK]], but top level block is 4[TRYBLOCK]
+
+
+net.lingala.zip4j.unzip.UnzipEngine
+----------------------------
+
+checkLocalHeader()
+  Loose catch block
+getInputStream()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [8[CASE]], but top level block is 4[TRYBLOCK]
+unzipFile(net.lingala.zip4j.progress.ProgressMonitor java.lang.String java.lang.String net.lingala.zip4j.model.UnzipParameters )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 14[TRYBLOCK] [42 : 513->517)] java.lang.Throwable
+
+
+net.lingala.zip4j.util.ArchiveMaintainer
+----------------------------
+
+initMergeSplitZipFile(net.lingala.zip4j.model.ZipModel java.io.File net.lingala.zip4j.progress.ProgressMonitor )
+  Loose catch block
+initRemoveZipFile(net.lingala.zip4j.model.ZipModel net.lingala.zip4j.model.FileHeader net.lingala.zip4j.progress.ProgressMonitor )
+  Unable to fully structure code
+setComment(net.lingala.zip4j.model.ZipModel java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 10[TRYBLOCK] [27 : 304->308)] java.lang.Throwable
+
+
+net.lingala.zip4j.util.CRCUtil
+----------------------------
+
+computeFileCRC(java.lang.String net.lingala.zip4j.progress.ProgressMonitor )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 17[TRYBLOCK] [47 : 311->315)] java.lang.Throwable
+
+
+net.lingala.zip4j.zip.ZipEngine
+----------------------------
+
+initAddFiles(java.util.ArrayList net.lingala.zip4j.model.ZipParameters net.lingala.zip4j.progress.ProgressMonitor )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 55[TRYBLOCK] [149 : 1244->1249)] java.lang.Throwable
+removeFilesIfExists(java.util.ArrayList net.lingala.zip4j.model.ZipParameters net.lingala.zip4j.progress.ProgressMonitor )
+  Loose catch block
+addStreamToZip(java.io.InputStream net.lingala.zip4j.model.ZipParameters )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 22[TRYBLOCK] [64 : 483->487)] java.lang.Throwable
+
+
+okhttp3.ConnectionPool
+----------------------------
+
+cleanup(long )
+  Loose catch block
+evictAll()
+  Loose catch block
+
+
+okhttp3.HttpUrl
+----------------------------
+
+percentDecode(okio.Buffer java.lang.String int int boolean )
+  Unable to fully structure code
+
+
+okhttp3.RealCall
+----------------------------
+
+getResponse(okhttp3.Request boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 2[TRYBLOCK] [8 : 375->387)] java.lang.Throwable
+
+
+okhttp3.internal.AndroidPlatform
+----------------------------
+
+buildIfSupported()
+  Unable to fully structure code
+
+
+okhttp3.internal.DiskLruCache
+----------------------------
+
+readJournal()
+  Loose catch block
+rebuildJournal()
+  Loose catch block
+
+
+okhttp3.internal.framed.FramedConnection
+----------------------------
+
+newStream(int java.util.List<okhttp3.internal.framed.Header> boolean boolean )
+  Unable to fully structure code
+writeData(int boolean okio.Buffer long )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 3[TRYBLOCK] [7 : 174->186)] java.lang.Throwable
+execute()
+  Loose catch block
+goAway(int okhttp3.internal.framed.ErrorCode okio.ByteString )
+  Loose catch block
+settings(boolean okhttp3.internal.framed.Settings )
+  Unable to fully structure code
+
+
+okio.AsyncTimeout
+----------------------------
+
+close()
+  Loose catch block
+flush()
+  Loose catch block
+write(okio.Buffer long )
+  Loose catch block
+close()
+  Loose catch block
+read(okio.Buffer long )
+  Loose catch block
+
+
+okhttp3.internal.framed.FramedStream
+----------------------------
+
+getResponseHeaders()
+  Loose catch block
+emitDataFrame(boolean )
+  Loose catch block
+
+
+okhttp3.internal.http.StreamAllocation
+----------------------------
+
+findHealthyConnection(int int int boolean boolean )
+  Loose catch block
+streamFailed(java.io.IOException )
+  Loose catch block
+
+
+okio.InflaterSource
+----------------------------
+
+read(okio.Buffer long )
+  Unable to fully structure code
+
+
+org.ini4j.spi.AbstractBeanInvocationHandler
+----------------------------
+
+getProperty(java.lang.String java.lang.Class<?> )
+  Unable to fully structure code
+
+
+org.ini4j.spi.BeanTool
+----------------------------
+
+inject(java.lang.Object org.ini4j.spi.BeanAccess )
+  Loose catch block
